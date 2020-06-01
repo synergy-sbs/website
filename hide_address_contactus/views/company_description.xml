@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="hide_company_description" inherit_id="website.contactus" name="Hide Company Description">
+        <xpath expr="//t[@t-call='website.company_description']" position="replace">
+        </xpath>
+    </template>
+</odoo>
